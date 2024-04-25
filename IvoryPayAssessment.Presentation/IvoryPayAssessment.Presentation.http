@@ -1,0 +1,6 @@
+@IvoryPayAssessment.Presentation_HostAddress = http://localhost:5149
+
+GET {{IvoryPayAssessment.Presentation_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
