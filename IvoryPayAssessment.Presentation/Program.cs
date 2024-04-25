@@ -127,7 +127,7 @@ void ConfigureLogs()
           .Enrich.WithExceptionDetails()//add exception details
           .WriteTo.Debug()
           .WriteTo.Console()
-          .WriteTo.File($"{builder.Environment.ContentRootPath}{Path.DirectorySeparatorChar}ServiceLogs/ghanadrive-", rollingInterval: RollingInterval.Day)
+          .WriteTo.File($"{builder.Environment.ContentRootPath}{Path.DirectorySeparatorChar}ServiceLogs/ivoryassessment-", rollingInterval: RollingInterval.Day)
 
           .CreateLogger();
 
